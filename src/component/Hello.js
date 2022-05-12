@@ -10,28 +10,8 @@ import styles from "./Hello.module.css"
 export default function Hello(){
     return (
     <div>
-        <h1>Hello</h1>
-        <button onClick={showName}>show name</button>
-        <button onClick={
-            ()=>{
-                // console.log("#")
-                showAge(30);
-            }
-        }>show age</button>
-        <br/>
-        <input type="text" onChange={showText}/>
+        <h1>state</h1>
+        <h2>컴포넌트의 속성값</h2>
     </div>
      );
-}
-
-function showName(){
-    console.log("Mike");
-}
-
-function showAge(age){
-    console.log(age)
-}
-
-function showText(e){
-    console.log(e.target.value)
 }
