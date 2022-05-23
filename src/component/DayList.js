@@ -14,4 +14,4 @@ export default function DayList() {
         {/* `day/${day.day}` */}
 
     </ul>;
-}
+}       
